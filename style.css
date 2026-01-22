@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin-bottom: 20px;
+}
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#skills .progress-bar {
+    height: 25px;
+    font-weight: bold;
+}
+.profile {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.about-pic{
+    width: 450px;
+    height:600px;
+    object-fit: cover;
+    margin-bottom:10px;
+    border-radius: 2%;
+}
+/* Skill Box Styles */
+.skill-box {
+  background-color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  position: relative;
+  padding: 10px; 
+}
+
+.skill-box h6 {
+  font-size: 0.9rem; 
+  margin-bottom: 5px;
+}
+
+.skill-percentage {
+  font-size: 0.85rem;
+  color: #4CAF50;
+  margin-top: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.skill-box:hover .skill-percentage {
+  opacity: 1;
+}
+#contact .form-control-lg {
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+#contact button.btn-lg {
+  padding: 12px 35px;
+  font-size: 1.2rem;
+}
